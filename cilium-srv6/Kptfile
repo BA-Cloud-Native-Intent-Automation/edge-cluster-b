@@ -8,16 +8,16 @@ metadata: # kpt-merge: /cilium-srv6
 upstream:
   type: git
   git:
-    repo: "https://github.com/BA-Cloud-Native-Intent-Automation/nephio-test-catalog.git"
+    repo: https://github.com/BA-Cloud-Native-Intent-Automation/nephio-test-catalog.git
     directory: cilium-srv6
-    ref: cilium-srv6/v1.1
+    ref: cilium-srv6/v1.2
 upstreamLock:
   type: git
   git:
-    repo: "https://github.com/BA-Cloud-Native-Intent-Automation/nephio-test-catalog.git"
+    repo: https://github.com/BA-Cloud-Native-Intent-Automation/nephio-test-catalog.git
     directory: cilium-srv6
-    ref: cilium-srv6/v1.1
-    commit: 0f62c5aef381c45d89e037f6cc54256f662b51e6
+    ref: cilium-srv6/v1.2
+    commit: 81cb4e2cabcfa7d6729f5f8a2bcc376cf9d5bda7
 info:
   description: b cluster
 pipeline: {}
