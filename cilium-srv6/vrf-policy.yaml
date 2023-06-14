@@ -6,12 +6,12 @@ metadata: # kpt-merge: /vrf0
     internal.kpt.dev/upstream-identifier: 'cilium.io|CiliumSRv6VRF|default|vrf0'
 spec:
   vrfID: 1
-  importRouteTarget: "65000:1"
-  exportRouteTarget: "65000:1"
+  importRouteTarget: "1:1"
+  exportRouteTarget: "1:1"
   rules:
   - selectors:
     - podSelector:
         matchLabels:
           vrf: vrf0
     destinationCIDRs:
-    - 10.3.0.0/24
+    - 10.2.0.0/24

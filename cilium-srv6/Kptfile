@@ -20,3 +20,7 @@ upstreamLock:
     commit: 0f62c5aef381c45d89e037f6cc54256f662b51e6
 info:
   description: b cluster
+pipeline:
+  mutators:
+  - image: gcr.io/kpt-fn/apply-replacements:v0.1.1
+    configPath: cilium-bgp-peering-policy.yaml
