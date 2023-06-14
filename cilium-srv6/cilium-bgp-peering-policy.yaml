@@ -10,7 +10,7 @@ spec:
       kubernetes.io/hostname: node1
   virtualRouters:
   # Peer with XR and advertise Pod CIDR
-  - localASN: 65000
+  - localASN: 67000
     exportPodCIDR: true
     mapSRv6VRFs: true
     neighbors:
